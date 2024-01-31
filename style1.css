@@ -1,0 +1,45 @@
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.red{
+    background-color: red;
+    height: 200px;
+    flex-basis: 20%;
+    margin: 5px;
+}
+.blue{
+    background-color:blue;
+    height: 200px;
+    margin: 5px;
+    flex-basis: 20%;
+}
+.green{
+    background-color: green;
+    height: 200px;
+    margin: 5px;
+    flex-basis: 20%;
+
+}
+.black{
+    background-color: blanchedalmond;
+    height: 200px;
+    margin: 5px;
+     flex-basis: 20%;
+
+}
+.yellow{
+    background-color:yellowgreen;
+    height: 200px;
+    margin: 5px;
+    flex-basis: 20%;
+
+}
+    @media screen and (max-width:1024px){
+        .red{
+            flex-basis: 100%;
+        }
+        
+    }
